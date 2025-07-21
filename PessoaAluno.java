@@ -51,9 +51,10 @@ public void Cadastrar(){
 public void Acessar(){
   System.out.println("Acessando loginAluno aguarde ...");
 }
-
+/*
 @Override
 public void ExibirInfo(){
   System.out.print("\t-- Exibindo dados -- \n");
   PessoaAluno();
+}*/
 }

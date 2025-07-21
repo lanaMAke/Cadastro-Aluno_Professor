@@ -20,7 +20,7 @@ public class Cadastro{
 
    cadastropessoa1.Cadastrar();
    cadastropessoa1.Acessar();
-   cadastropessoa1.ExibirInfo();
+ //  cadastropessoa1.ExibirInfo();
    System.out.println("===================================");
 
 //Pessoa Aluno
@@ -35,7 +35,7 @@ public class Cadastro{
 
    cadastroAluno1.Cadastrar();
    cadastroAluno1.Acessar();
-   cadastroAluno1.ExibirInfo();
+ //  cadastroAluno1.ExibirInfo();
    System.out.println("===================================");
 
 //Pessoa Professor
@@ -54,7 +54,7 @@ public class Cadastro{
 
    cadastroProfessor1.Cadastrar();
    cadastroProfessor1.Acessar();
-   cadastroProfessor1.ExibirInfo();
+ //  cadastroProfessor1.ExibirInfo();
    System.out.println("**************************************");  
 
 

@@ -70,6 +70,7 @@ public void Cadastrar(){
 public void Acessar(){
   System.out.println("Acessando login...");
 }
+/*
 public void ExibirInfo(){
   System.out.print("\t-- Confirmar dados -- \n");
   System.out.println("Nome.: "+nome);
@@ -78,6 +79,6 @@ public void ExibirInfo(){
   System.out.println(identidade);
   System.out.println(nacionalidade);
 
-}
+}*/
 
 }

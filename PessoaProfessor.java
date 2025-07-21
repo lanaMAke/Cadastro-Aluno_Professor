@@ -37,7 +37,7 @@ public void setDiciplinasTrabalhadas(int diciplinasTrabalhadas){
     this.diciplinasTrabalhadas = diciplinasTrabalhadas;
 }
 
-public int getIdentificacao(){
+public double getIdentificacao(){
     return identificacao;
 }
 public void setIdentificacao(double identificacao){
@@ -45,7 +45,7 @@ public void setIdentificacao(double identificacao){
 }
 
 public String getInstituicao(){
-    return identificacao;
+    return instituicao;
 }
 public void setInstituicao(String instituicao){
     this.instituicao = instituicao;
@@ -82,11 +82,12 @@ public void Cadastrar(){
 public void Acessar(){
   System.out.println("Acessando loginProfessor, aguarde...");
 }
+/*
 @Override
 public void ExibirInfo(){
   System.out.print("\t-- Confirmar dados -- \n");
   PessoaProfessor();
-}
+}*/
 
 }
 
