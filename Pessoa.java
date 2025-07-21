@@ -1,65 +1,83 @@
 public class Pessoa{
-    
-    private int identidade; // acrescentar vetor [11];
+    //add mais um atributo
+    private double identidade; // acrescentar vetor [11];
     private String nome;
     private int idade;
-    private boolean tipo; // aluno ou professor;
-
-
+    private String nacionalidade;
+    private String genero;
 
 //Construtor padrão
 Pessoa(){
 
-   this.identidade = "***.***.***-**";
+   this.identidade = 0;
    this.nome = "Sem nome";
    this.idade = 0;
-   this.tipo = 
+   this.genero = "Não Informado";
+   this.nacionalidade = "Não informado";
 }
+Pessoa(String nome,double identidade,int idade,String nacionalidade, String genero){
 
-Pessoa(String nome){
-
-   this.identidade = "***.***.***-**";
+   this.identidade = identidade;
    this.nome = nome;
-   this.idade = 0;
-   this.tipo = 
+   this.idade = idade;
+   this.nacionalidade = nacionalidade;
+   this.genero = genero;
 }
-//Acessos
 
+//Acessos --<>
 public String getNome(){
     return nome;
 }
-
-
-public void setNome(String name, , int idd, boolean tipo){
+public void setNome(String name){
     this.nome = name;  
 }
 
-public int getIdentidade(){
+public double getIdentidade(){
   return identidade;
 }
-public void setIdentidade(int ident){
+public void setIdentidade(double ident){
   this.identidade = ident;
+
 }
 
 public int getIdade(){
    return idade;
 }
-public void setIdade(){
-  this.identidade = idd;
+public void setIdade(int idade){
+  this.identidade = idade;
 }
 
-public boolean getTipo(){
-   return tipo;
+public String getnacionalidade(){
+  return nacionalidade;
 }
-public void setTipo(){
-  this.tipo = tipo;
+public void setnacionalidade(String nacionalidade){
+  this.nacionalidade = nacionalidade;
+}
+
+public String getGenero(){
+  return genero;
+}
+public void setGenero(String genero){
+  this.genero = genero;
 }
 
 
-//Ações
+//Ações --<>
 
 public void Cadastrar(){
     System.out.println("Cadastrando...");
 }
-public void 
+public void Acessar(){
+  System.out.println("Acessando login...");
+}
+public void ExibirInfo(){
+  System.out.print("\t-- Confirmar dados -- \n");
+  System.out.println("Nome.: "+nome);
+  System.out.println("Idade.:"+idade);
+  System.out.println("Genero.: "+genero);
+  System.out.println(identidade);
+  System.out.println(nacionalidade);
+
+}
+
 }
